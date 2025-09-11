@@ -1,29 +1,66 @@
 <html>
-    <head>
-        <title>
-            My First page
-        </title>
-        <!-- linking our html file to the css file -->
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <!-- this is my heading below -->
-        <h1 class="title">Hello World</h1>
-        <!-- this is my first paragraph below -->
-        <p class="paragraph1">
-            This is my first web page.
-        </p>
-        <!-- this is my second paragraph below -->
-        <p class="paragraph2" id="paragraph2">This is my second paragraph</p>
-        <!-- this is my button below -->
-        <button class="button">Click Me!</button>
-        <!-- Introducing the div and images concept -->
-         <div class="container" id="container1">
-            <h2 class="h2">My image</h2>
-            <p class="p3">Here is my image</p>
-            <img class="image" src="https://res.cloudinary.com/ddei3mzex/image/upload/v1736334293/logo_zrszaf.png" alt="My Image">
-            
-         </div>
-         <button class="button2">Upload image</button>
-    </body>
+  <head>
+    <title>My First Page</title>
+    <!-- Linking HTML file to the CSS file -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <h1 class="logo">🌍 My First Page</h1>
+      <ul class="nav-links">
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="section">
+      <h2>Hello World 👋</h2>
+      <p>Welcome to my very first web page. I'm learning HTML and CSS!</p>
+      <button class="btn">Click Me!</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        This is my first step into the world of web development. 
+        I’m excited to learn and create more amazing projects.
+      </p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+      <h2>My Image</h2>
+      <p>Here is an image I added to my webpage:</p>
+      <img
+        class="image"
+        src="https://res.cloudinary.com/ddei3mzex/image/upload/v1736334293/logo_zrszaf.png"
+        alt="My Image"
+        width="200"
+      >
+      <br>
+      <button class="btn">Upload Image</button>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>If you’d like to connect, feel free to say hi 👇</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Your Email" required><br>
+        <textarea placeholder="Your Message"></textarea><br>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 My First Webpage | Built with ❤️ and HTML</p>
+    </footer>
+  </body>
 </html>
