@@ -1,0 +1,29 @@
+.title {
+    color:blue;
+    font-size:40px;
+    margin-left:20px;
+    font: bold Arial;
+}
+.paragraph1 {
+    color:green;
+    font-size:20px;
+    margin-left:20px;
+    font: italic Arial;
+}
+.paragraph2 {
+    color:rgb(71, 28, 48);
+    font-size:20px;
+    margin-left:20px;
+    font: italic Arial;
+}
+.button {
+    background-color:rgb(19, 40, 161);
+    color:white;
+    font-size:20px;
+    margin-left:20px;
+    font: bold Arial;
+    border-radius:10px;
+    width:100px;
+    height:40px;
+    cursor: pointer;
+}
